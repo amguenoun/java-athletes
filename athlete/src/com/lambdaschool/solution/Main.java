@@ -23,10 +23,10 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
-//        // Create a Baseball Athlete
-//        injector = new BaseballAthleteCreationInjector();
-//        app = injector.getProcess();
-//        app.displayAthlete();
+        // Create a Baseball Athlete
+        injector = new BaseballAthleteCreationInjector();
+        app = injector.getProcess();
+        app.displayAthlete();
 
     }
 }
