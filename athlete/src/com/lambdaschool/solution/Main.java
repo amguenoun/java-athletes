@@ -12,7 +12,7 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
-//        // Create a Hockey Athlete
+        // Create a Hockey Athlete
 //        injector = new HockeyAthleteCreationInjector();
 //        app = injector.getProcess();
 //        app.displayAthlete();

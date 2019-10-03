@@ -9,8 +9,7 @@ public class MyApplication implements Processor {
 	}
 
 	@Override
-	public void displayAthlete(String athlete) {
-		athlete = "\n************\n" + athlete + "\n************\n";
-		myAth.printAthlete(athlete);
+	public void displayAthlete() {
+		myAth.printAthlete();
 	}
 }
