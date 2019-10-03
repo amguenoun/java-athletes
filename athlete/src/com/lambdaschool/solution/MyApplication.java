@@ -15,11 +15,15 @@ public class MyApplication implements Processor {
 
 	@Override
 	public void displayAthlete() {
+		System.out.println("\n************");
 		myAth.printAthlete();
+		System.out.println("************\n");
 	}
 
 	@Override
 	public void displayCourt() {
+		System.out.println("\n************");
 		myCrt.printCourt();
+		System.out.println("************\n");
 	}
 }
