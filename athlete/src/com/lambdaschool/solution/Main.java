@@ -5,6 +5,7 @@ public class Main
     public static void main(String[] args)
     {
         AthleteCreationInjector injector;
+        CourtInjector courtInjector;
         Processor app;
 
         // Create a Track Athlete
@@ -12,11 +13,15 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
+        //Create a Track Court
+        courtInjector = new TrackCourtInjector();
+        app = courtInjector.getProcess();
+        app.displayCourt();
+
         // Create a Hockey Athlete
         injector = new HockeyAthleteCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
-
 
         // Create a Rugby Athlete
         injector = new RugbyAthleteCreationInjector();
@@ -27,6 +32,5 @@ public class Main
         injector = new BaseballAthleteCreationInjector();
         app = injector.getProcess();
         app.displayAthlete();
-
     }
 }
