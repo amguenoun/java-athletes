@@ -13,9 +13,9 @@ public class Main
         app.displayAthlete();
 
         // Create a Hockey Athlete
-//        injector = new HockeyAthleteCreationInjector();
-//        app = injector.getProcess();
-//        app.displayAthlete();
+        injector = new HockeyAthleteCreationInjector();
+        app = injector.getProcess();
+        app.displayAthlete();
 //
 //
 //        // Create a Rugby Athlete
