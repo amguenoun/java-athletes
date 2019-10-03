@@ -23,6 +23,11 @@ public class Main
         app = injector.getProcess();
         app.displayAthlete();
 
+        //Create a Track Court
+        courtInjector = new HockeyCourtInjector();
+        app = courtInjector.getProcess();
+        app.displayCourt();
+
         // Create a Rugby Athlete
         injector = new RugbyAthleteCreationInjector();
         app = injector.getProcess();
